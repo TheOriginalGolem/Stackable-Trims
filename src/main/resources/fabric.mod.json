@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "stackabletrims",
+  "version": "${version}",
+
+  "name": "Stackable Trims",
+  "description": "Allows you to stack as many trims as you want",
+  "authors": [
+    "Golem"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/Gol/StackedTrims"
+  },
+
+  "license": "",
+  "icon": "assets/stackabletrims/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.golem.stackabletrims.StackableTrims"
+    ]
+  },
+  "mixins": [
+    "stackabletrims.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric-api": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	org/golem/stackabletrims/mixin/ArmorFeatureRendererMixin	Lnet/minecraft/client/texture/SpriteAtlasTexture;	armorTrimsAtlas	field_42074
+METHOD	org/golem/stackabletrims/mixin/ArmorFeatureRendererMixin	(Lnet/minecraft/item/ArmorMaterial;Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;ILnet/minecraft/item/trim/ArmorTrim;Lnet/minecraft/client/render/entity/model/BipedEntityModel;Z)V	renderTrim	method_48482

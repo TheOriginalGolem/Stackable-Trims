@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	de/seiboldsmuehle/stacked_trims/mixin/ArmorFeatureRendererMixin	Lnet/minecraft/client/texture/SpriteAtlasTexture;	armorTrimsAtlas	field_42074
+METHOD	de/seiboldsmuehle/stacked_trims/mixin/ArmorFeatureRendererMixin	(Lnet/minecraft/item/ArmorMaterial;Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;ILnet/minecraft/item/trim/ArmorTrim;ZLnet/minecraft/client/render/entity/model/BipedEntityModel;ZFFF)V	renderTrim	method_48482

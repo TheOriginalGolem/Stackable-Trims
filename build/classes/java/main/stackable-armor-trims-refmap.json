@@ -1,0 +1,38 @@
+{
+  "mappings": {
+    "org/golem/stackabletrims/mixin/AnvilScreenHandlerMixin": {
+      "Lnet/minecraft/item/ItemStack;isOf(Lnet/minecraft/item/Item;)Z": "Lnet/minecraft/class_1799;method_31574(Lnet/minecraft/class_1792;)Z",
+      "updateResult": "Lnet/minecraft/class_1706;method_24928()V"
+    },
+    "org/golem/stackabletrims/mixin/ArmorFeatureRendererMixin": {
+      "Lnet/minecraft/item/trim/ArmorTrim;getTrim(Lnet/minecraft/registry/DynamicRegistryManager;Lnet/minecraft/item/ItemStack;)Ljava/util/Optional;": "Lnet/minecraft/class_8053;method_48428(Lnet/minecraft/class_5455;Lnet/minecraft/class_1799;)Ljava/util/Optional;",
+      "renderArmor": "Lnet/minecraft/class_970;method_4169(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_1309;Lnet/minecraft/class_1304;ILnet/minecraft/class_572;)V"
+    },
+    "org/golem/stackabletrims/mixin/ArmorTrimMixin": {
+      "Lnet/minecraft/item/ItemStack;getOrCreateNbt()Lnet/minecraft/nbt/NbtCompound;": "Lnet/minecraft/class_1799;method_7948()Lnet/minecraft/class_2487;",
+      "Lnet/minecraft/item/ItemStack;getSubNbt(Ljava/lang/String;)Lnet/minecraft/nbt/NbtCompound;": "Lnet/minecraft/class_1799;method_7941(Ljava/lang/String;)Lnet/minecraft/class_2487;",
+      "appendTooltip": "Lnet/minecraft/class_8053;method_48425(Lnet/minecraft/class_1799;Lnet/minecraft/class_5455;Ljava/util/List;)V",
+      "apply": "Lnet/minecraft/class_8053;method_48429(Lnet/minecraft/class_5455;Lnet/minecraft/class_1799;Lnet/minecraft/class_8053;)Z",
+      "getTrim": "Lnet/minecraft/class_8053;method_48428(Lnet/minecraft/class_5455;Lnet/minecraft/class_1799;)Ljava/util/Optional;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/golem/stackabletrims/mixin/AnvilScreenHandlerMixin": {
+        "Lnet/minecraft/item/ItemStack;isOf(Lnet/minecraft/item/Item;)Z": "Lnet/minecraft/class_1799;method_31574(Lnet/minecraft/class_1792;)Z",
+        "updateResult": "Lnet/minecraft/class_1706;method_24928()V"
+      },
+      "org/golem/stackabletrims/mixin/ArmorFeatureRendererMixin": {
+        "Lnet/minecraft/item/trim/ArmorTrim;getTrim(Lnet/minecraft/registry/DynamicRegistryManager;Lnet/minecraft/item/ItemStack;)Ljava/util/Optional;": "Lnet/minecraft/class_8053;method_48428(Lnet/minecraft/class_5455;Lnet/minecraft/class_1799;)Ljava/util/Optional;",
+        "renderArmor": "Lnet/minecraft/class_970;method_4169(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_1309;Lnet/minecraft/class_1304;ILnet/minecraft/class_572;)V"
+      },
+      "org/golem/stackabletrims/mixin/ArmorTrimMixin": {
+        "Lnet/minecraft/item/ItemStack;getOrCreateNbt()Lnet/minecraft/nbt/NbtCompound;": "Lnet/minecraft/class_1799;method_7948()Lnet/minecraft/class_2487;",
+        "Lnet/minecraft/item/ItemStack;getSubNbt(Ljava/lang/String;)Lnet/minecraft/nbt/NbtCompound;": "Lnet/minecraft/class_1799;method_7941(Ljava/lang/String;)Lnet/minecraft/class_2487;",
+        "appendTooltip": "Lnet/minecraft/class_8053;method_48425(Lnet/minecraft/class_1799;Lnet/minecraft/class_5455;Ljava/util/List;)V",
+        "apply": "Lnet/minecraft/class_8053;method_48429(Lnet/minecraft/class_5455;Lnet/minecraft/class_1799;Lnet/minecraft/class_8053;)Z",
+        "getTrim": "Lnet/minecraft/class_8053;method_48428(Lnet/minecraft/class_5455;Lnet/minecraft/class_1799;)Ljava/util/Optional;"
+      }
+    }
+  }
+}
