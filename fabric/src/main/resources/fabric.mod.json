@@ -3,16 +3,16 @@
   "id": "stackabletrims",
   "version": "${version}",
   "name": "Stackable Trims",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Allows you to stack as many trims as you want!",
   "authors": [
-    "Me!"
+    "Golem"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/TheOriginalGolem/Stackable-Trims",
+    "sources": "https://github.com/TheOriginalGolem/Stackable-Trims"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "GPL 3.0",
+  "icon": "assets/stackabletrims/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -25,7 +25,7 @@
   ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.19.4",
-    "architectury": ">=8.1.79"
+    "minecraft": ">=1.20",
+    "architectury": ">=9.0.0"
   }
 }

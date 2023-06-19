@@ -1,15 +1,15 @@
 modLoader = "javafml"
 loaderVersion = "[46,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "GPL 3.0"
 
 [[mods]]
 modId = "stackabletrims"
 version = "${version}"
 displayName = "Stackable Trims"
-authors = "Me!"
+authors = "Golem"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Allows you to stack as many trims as you want!
 '''
 #logoFile = ""
 
@@ -30,6 +30,6 @@ side = "BOTH"
 [[dependencies.stackabletrims]]
 modId = "architectury"
 mandatory = true
-versionRange = "[9.0.8,)"
+versionRange = "[9.0.0,)"
 ordering = "AFTER"
 side = "BOTH"
